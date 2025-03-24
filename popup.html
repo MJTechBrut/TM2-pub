@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TicketMaster Master</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 10px;
+      }
+
+      button {
+        margin: 5px 0;
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      #displayArea {
+        margin-top: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background: #f9f9f9;
+        font-size: 14px;
+      }
+
+      #displayArea strong {
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>TicketMaster Master</h1>
+    <button id="scrapeDataButton">Grab Data</button>
+    <button id="saveDataButton">Save to Sheets</button>
+    <p>Data Preview</p>
+    <div id="displayArea">Click on "Grab Data" above.</div>
+    <script src="popup.js"></script>
+  </body>
+</html>
